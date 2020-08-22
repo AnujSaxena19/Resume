@@ -1,0 +1,88 @@
+body{
+    background-color: #EAF6F6;
+    background-repeat: no-repeat;
+}
+h1{
+    color: #66BFBF;
+   font-family: "Sacramento"; 
+   font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: #66BFBF;
+    font-family: "Sacramento"; 
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    color: #66BFBF;
+}
+.heading{
+    color: black;
+    font-size: 30px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+.background-image{
+    width: 100%;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.container{
+    padding: 4% 27%;
+}
+.container-fluid{
+    padding: 3% 22%;
+}
+
+.photo{
+    width: 75%;
+    border-radius: 100%;
+    
+}
+.social-icon{
+    height: 70px;
+    width: 70px;
+    background-color: #f5f6fa;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.centerdiv{  
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon i{
+    transition: all 0.3s linear;
+}
+.social-icon:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-twitter{
+    color: #0097e6; 
+}
+#footer{
+   
+    padding: 7% 15%;
+    text-align: center;
+    color: black;
+}
